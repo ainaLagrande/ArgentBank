@@ -1,9 +1,12 @@
 import iconChat from "../img/icon-chat.png"
 import iconMoney from "../img/icon-money.png"
 import iconSecurity from "../img/icon-security.png"
+import NavBar from '../Components/Nav';
 
 export default function Homepage() {
+
     return <main>
+      <NavBar /> 
     <div className="hero">
       <section className="hero-content">
         <h2 className="sr-only">Promoted Content</h2>

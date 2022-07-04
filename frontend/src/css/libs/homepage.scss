@@ -21,6 +21,12 @@ html {
     height: 80vh;
     background-color: #12002b;
   }
+  .display_flex{
+    width: 10%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+  }
   
   .sr-only {
     border: 0 !important;
