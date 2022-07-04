@@ -1,6 +1,9 @@
+// React 
 import React, { useEffect } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router';
+
+// Redux 
+import { useDispatch, useSelector } from 'react-redux';
 import { requestLogin } from '../services/actionReducer/loginRequest';
 
 /**
@@ -29,14 +32,13 @@ const Form = () => {
 
   useEffect(() => {if(status === "resolved") { 
     navigate("/user") }},[navigate, status])
-    // setErrorMessage("COrrect !")}},[status])
 
   return (
     <div className="main bg-dark">
       <section className="sign-in-content">
         <i className="fa fa-user-circle sign-in-icon"></i>
         <h1>Sign In</h1>
-        <form >
+        <form > 
           <div className="input-wrapper">
             <label htmlFor="username">Username</label>
             <input onChange={e => setUserName(e.target.value)} type="text" id="username" autoComplete='e-mail' />

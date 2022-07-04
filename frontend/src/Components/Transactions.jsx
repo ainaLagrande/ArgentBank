@@ -1,11 +1,10 @@
 /**
 * Create Html Accounts page
 */
-
 export default function Transactions() {
   
-  return (
-    <><h2 className="sr-only">Accounts</h2>
+  return (<main>
+    <h2 className="sr-only">Accounts</h2>
     <section className="account">
       <div className="account-content-wrapper">
         <h3 className="account-title">Argent Bank Checking (x8349)</h3>
@@ -33,7 +32,7 @@ export default function Transactions() {
         <div className="account-content-wrapper cta">
           <button className="transaction-button">View transactions</button>
         </div>
-      </section></>
-  );
+      </section>
+      </main>);
 };
 

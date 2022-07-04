@@ -11,8 +11,6 @@ import { accessProfile } from "../services/actionReducer/userProfileRequest";
 import { userLogout } from '../services/actionReducer/UserReducer';
 import { logout } from '../services/actionReducer/loginRequest';
 
-
-
 export default function Profil() {
   const navigate = useNavigate();
   const dispatch = useDispatch();

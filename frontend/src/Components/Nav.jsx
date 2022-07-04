@@ -1,4 +1,6 @@
+// Assets 
 import logo from '../img/argentBankLogo.png'
+// React 
 import { NavLink } from "react-router-dom";
 
 export default function NavBar() {

@@ -1,0 +1,24 @@
+.Error{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-bottom: 3%;
+
+    h1{
+        font-size: 288px;
+        font-weight: 700;
+    }
+    p{
+        font-size: 36px;
+        font-weight: 500;
+    }
+    a{
+        border-bottom: 1px solid #00bc77;   
+        text-decoration: none;
+        color:#2c3e50;
+             
+    }
+}

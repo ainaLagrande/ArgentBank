@@ -1,4 +1,6 @@
+// React 
 import React from 'react';
+// Redux 
 import { useDispatch } from 'react-redux';
 import { editProfile } from '../services/actionReducer/editProfileRequest';
 import { edit } from '../services/actionReducer/UserReducer';
@@ -27,27 +29,15 @@ const ProfileEditor = ({ firstname, lastname }) => {
   }
   return (
     <div>
-      <h1 className="modifiedTitle" >Welcome back<br /></h1>
-      <div className="containerEditForm">
+      <h1 className="title">Welcome back<br/></h1>
+      <div className="container_editForm">
         <div className="editForm flex-end">
-          <input className="field"
-                 type="text" 
-                 id="firstnameInput" 
-                 name="firstname" 
-                 defaultValue={firstname} 
-                 onChange={e => setFirstName(e.target.value)}/>
-          <button onClick={save} 
-                  className="validate">Save</button>
+          <input className="field" type="text" id="firstnameInput" name="firstname" defaultValue={firstname} onChange={e => setFirstName(e.target.value)}/>
+          <input className="field" type="text" id="lastnameInput" name="lastname" defaultValue={lastname} onChange={e => setLastName(e.target.value)}/>
         </div>
         <div className="editForm flex-start">  
-          <input className="field" 
-                 type="text"  
-                 id="lastnameInput" 
-                 name="lastname" 
-                 defaultValue={lastname} 
-                 onChange={e => setLastName(e.target.value)}/>
-          <button onClick={cancel} 
-                  className="validate">Cancel</button>
+          <button onClick={cancel} className="validate">Cancel</button>
+          <button onClick={save} className="validate">Save</button>
         </div>
       </div>
     </div>
