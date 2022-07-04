@@ -22,7 +22,7 @@ node --version
 mongo --version
 ```
 
-### Installing Front-End
+## Installing API
 
 1. Fork this repo (https://github.com/OpenClassrooms-Student-Center/Project-10-Bank-API)
 1. Clone the repo onto your computer
@@ -42,7 +42,7 @@ npm run populate-db
 
 Your server should now be running at http://locahost:3001 and you will now have two users in your MongoDB database!
 
-## Populated Database Data
+### Populated Database Data
 
 Once you run the `populate-db` script, you should have two users in your database:
 
@@ -73,7 +73,7 @@ For some of the dynamic features, like toggling user editing, there is a mock-up
 And for the API model that you will be proposing for transactitons, the wireframe can be found in `/designs/wireframes/transactions.png`.
 
 
-### Installing Front-End
+## Installing Front-End
 
 - Clone, fork or download  this repository : `git clone https://github.com/ainaLagrande/ArgentBank`
 - Launch front-end on port 3000 (default port) :
