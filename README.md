@@ -79,7 +79,7 @@ And for the API model that you will be proposing for transactitons, the wirefram
 - Launch front-end on port 3000 (default port) :
 
 ```
-cd ArgentBank
+cd ArgentBank/frontend
 npm start
 ```
 

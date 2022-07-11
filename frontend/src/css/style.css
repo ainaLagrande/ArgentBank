@@ -359,6 +359,11 @@ body {
   color: #2c3e50;
 }
 
+.error {
+  margin-top: 5%;
+  color: red;
+}
+
 /*# sourceMappingURL=style.scss.map */
 
 /*# sourceMappingURL=style.css.map */
