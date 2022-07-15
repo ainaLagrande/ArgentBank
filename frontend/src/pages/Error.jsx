@@ -1,10 +1,8 @@
 // React 
 import { NavLink } from 'react-router-dom';
-// Components 
-import NavBar from '../Components/Nav';
 
 export default function Error() {
-    return (<main><NavBar />
+    return (<main>
     <div className="Error"> 
         <div className="error_box">
             <h1>404</h1>

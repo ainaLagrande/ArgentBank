@@ -2,8 +2,8 @@
 import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router';
 import { useDispatch, useSelector } from 'react-redux';
+
 //Components
-import NavSignIn from '../Components/NavSignIn';
 import UserHeader from '../Components/UserHeader';
 import Transactions from '../Components/Transactions';
 // Redux 
@@ -34,7 +34,6 @@ export default function Profil() {
 
   return (
     <div>
-    <NavSignIn/>
     <main className="main bg-dark">
       <UserHeader/>
       <Transactions/>

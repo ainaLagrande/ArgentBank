@@ -12,6 +12,7 @@ import Profil from './pages/Profile';
 import Error from './pages/Error';
 // Components 
 import Footer from './Components/Footer';
+import NavBar from './Components/Nav';
 // Style 
 import "./css/style.css";
 
@@ -19,6 +20,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Provider store={store}>
     <BrowserRouter>
+    <NavBar />
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/login" element={<Login />} />
