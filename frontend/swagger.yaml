@@ -13,7 +13,7 @@ tags:
 schemes:
   - "http"
 paths:
-  /user/profile/transactions/:
+  /user/profile/userId/transactions/:
     get:
       tags:
         - "User Transactions"
@@ -65,7 +65,7 @@ paths:
           description: "Not found"
         "500":
           description: "Internal Server error"
-  /user/profile/transactions/${transactionID}:
+  /user/profile/transactions/{transactionID}:
     get:
       tags:
         - "User Transactions"
