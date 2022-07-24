@@ -11,7 +11,7 @@ export default   function LoggedInNav({ firstname }) {
   
     return (
       <div>
-        <Link to={"/profile"} className="main-nav-item">
+        <Link to={"/user"} className="main-nav-item">
           <i className="fa fa-user-circle"></i>
           {firstname}
         </Link>
